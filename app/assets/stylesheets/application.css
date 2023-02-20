@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+
+.container {
+  margin: 12px 0px 12px 24px;
+}
+.chat_form {
+  width: 100%;
+  display: flex;
+  height: 48px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+.ask_button {
+  box-sizing: content-box;
+  border-radius: 0px 6px 6px 0px;
+  color: white;
+  background-color: rgb(106, 155, 225);
+  padding: 0 16px 0 16px;
+  border-left: 1px solid rgb(54, 81, 117);
+}
+
+.chat_input {
+  /* border-radius: 12px; */
+  border-right: none;
+  border-radius: 6px 0px 0px 6px;
+  width: 60%;
+  border: 1px rgba(0, 0, 0, 0.245) solid;
+  box-shadow: rgba(255, 255, 255, 0.908) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.267) 0px 18px 36px -18px inset;
+}
+
+/* /answer CSS */
+.chat_card {
+  border-left: 8px solid rgba(0, 0, 0, 0.1);
+  padding-left: 16px;
+}
+.answer {
+  background-color: rgb(255, 252, 210);
+}

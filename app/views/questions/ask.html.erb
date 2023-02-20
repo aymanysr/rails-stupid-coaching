@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Stupid Coaching</h1>
+  <form action="/answer" data-turbo="false">
+    <p>Ask your coach anything!</p>
+    <div class="chat_form">
+    <input type="text" name="question" class="chat_input">
+    <input type="submit" value="Ask!" class="ask_button">
+  </div>
+  </form>
+  <%= link_to "see answer", "/answer" %>
+</div>
